@@ -16,7 +16,7 @@ TIMER_LABEL = "Timer"
 TIMER_TEXT = "00:00"
 
 
-# ---------------------------- TIMER RESET ------------------------------- #
+# ---------------------- TIMER AND COUNTDOWN MECHANISM ----------------- #
 def update_check_marks():
     marks = ""
     no_of_work_sessions = int(reps / 2)
@@ -51,9 +51,6 @@ def reset_timer():
     check_marks.config(text="")
 
 
-# ---------------------------- TIMER MECHANISM ------------------------------- # 
-
-# ---------------------------- COUNTDOWN MECHANISM ------------------------------- # 
 def count_down(count):
     global timer
 
